@@ -9,28 +9,16 @@
 </head>
 
 <body>
-    <h1 class="flex">Stop Watch</h1>
+    <h1 class="flex pad-top font-size">Stop Watch</h1>
 
-    <!-- <div class="flex"> -->
-        <h1 class="flex"><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span></h1>
+    <h1 class="flex font-size-2"><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span></h1>
 
-    <div class="flex">
-        <button id="start" onclick="startWatch()">Start</button>
-        <button id="stop" onclick="stopWatch()">Stop</button>
-        <button id="reset" onclick="resetWatch()">Reset</button>
-    </div> 
+    <div class="flex gap ">
+        <button class="btn-1 btn-size" id="start" onclick="startWatch()">Start</button>
+        <button class="btn-2 btn-size" id="stop" onclick="stopWatch()">Stop</button>
+        <button class="btn-3 btn-size" id="reset" onclick="resetWatch()">Reset</button>
+    </div>
 
-
-    <!-- <div class="main-div">
-
-        <h1><span id="hours">00</span> : <span id="minute">00</span> : <span id="seconds">00</span></h1>
-        
-        <div class="buttons">
-        <button onclick="start()">Start</button>
-        <button onclick="reset()">Reset</button>
-        <button onclick="stop()">Stop</button>
-        </div>
-        </div> -->
 
     <script src="./app.js"></script>
 </body>

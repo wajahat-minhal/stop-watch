@@ -1,5 +1,53 @@
+body{
+    background-color: #000000;
+    color: #008000;
+}
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.font-size{
+    font-size: 3rem;
+}
+
+.font-size-2{
+    font-size: 6rem;
+}
+
+.pad-top{
+    padding-top: 100px;
+}
+
+
+.btn-1:hover{
+    background-color: #008000;
+    color: #000000;
+
+}
+
+
+.btn-2:hover{
+    background-color: #ff0000;
+    color: #000000;
+
+}
+
+.btn-3:hover{
+    background-color: #ffff00;
+    color: #000000;
+
+}
+
+.btn-size{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
+.gap{
+    gap: 20px;
 }

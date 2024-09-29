@@ -32,8 +32,8 @@ function stopWatch(){
 
 function resetWatch(){
     // num = 0;
-    hr.innerHTML = "00:";
-    min.innerHTML = "00:";
+    hr.innerHTML = "00";
+    min.innerHTML = "00";
     sec.innerHTML = "00";
     clearInterval(count)
 }
